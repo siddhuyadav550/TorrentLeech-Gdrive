@@ -33,12 +33,12 @@ async def new_join_f(client, message):
 
 
 async def help_message_f(client, message):
-    await message.reply_text("no one gonna help you 🤣🤣🤣🤣", quote=True)
+    await message.reply_text("कोई भी आपकी मदद करने वाला नहीं है 🤣🤣🤣🤣", quote=True)
     channel_id = str(AUTH_CHANNEL)[4:]
     message_id = 99
     # display the /help
     
-    await message.reply_text("""join this group forr help-- @aladdin_ka_chirag\n\n And also don't forget to marvaying your gand""", disable_web_page_preview=True)
+    await message.reply_text("""मदद के लिए इस समूह में शामिल हों --> @aladdin_ka_chirag\n\n And also don't forget to marvaying your gand""", disable_web_page_preview=True)
 
 
 async def rename_message_f(client, message):
