@@ -38,7 +38,7 @@ async def help_message_f(client, message):
     message_id = 99
     # display the /help
     
-    await message.reply_text("""मदद के लिए इस समूह में शामिल हों --> @aladdin_ka_chirag\n\n And also don't forget to marvaying your gand""", disable_web_page_preview=True)
+    await message.reply_text("""मदद के लिए यहां मेसेज करो --> @NinJa_Bhau_Bot\n\n And also don't forget to marvaying your gand""", disable_web_page_preview=True)
 
 
 async def rename_message_f(client, message):
